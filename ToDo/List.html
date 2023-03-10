@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Statuto</title>
 	
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
 
@@ -14,16 +16,14 @@
     <link rel="shortcut icon" href="Logo.png">
 </head>
 <body>
-	<main class="app">
 		<section class="greeting">
 			<h2 class="title">
 				Hello, <input type="text" id="name" placeholder="type your name here" />
 			</h2>
+			<main class="app">
 		</section>
-		<select id="theme" onchange="switchTheme()">
-			<option value="Light">Light</option>
-			<option value="Dark">Dark</option>
-		</select>
+		<div class="wrapper-color-switch">
+		  </div>
 		<section class="create-todo">
 			<h3>CREATE A LIST</h3>
 			<form id="new-todo-form">
