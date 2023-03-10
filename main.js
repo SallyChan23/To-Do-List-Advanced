@@ -34,6 +34,13 @@ window.addEventListener('load', () => {
 	DisplayTodos()
 })
 
+function switchTheme(){
+	const theme = 
+document.getElementById("theme").value;
+	document.getElementsByTagName("meta")
+	[0].content = theme;
+}
+
 function DisplayTodos () {
 	const todoList = document.querySelector('#todo-list');
 	todoList.innerHTML = "";
@@ -116,3 +123,4 @@ function DisplayTodos () {
 
 	})
 }
+

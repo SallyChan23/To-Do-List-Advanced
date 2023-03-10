@@ -20,6 +20,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	box-shadow: #0a0900;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -32,10 +33,7 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 }
 /* End of Resets */
 
-body {
-	background: #ffffff;
-	color: var(--dark);
-}
+
 
 section {
 	margin-top: 2rem;
