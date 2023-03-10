@@ -20,7 +20,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	box-shadow: #0a0900;
+	border-color: #0a0900;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -80,6 +80,8 @@ h4 {
 	padding: 1rem 1.5rem;
 	color: var(--dark);
 	background-color: #FFF;
+	border-style: solid;
+	border-color: #0a0900;
 	border-radius: 0.5rem;
 	box-shadow: var(--shadow);
 	margin-bottom: 1.5rem;
