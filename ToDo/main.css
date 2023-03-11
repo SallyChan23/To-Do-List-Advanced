@@ -24,7 +24,8 @@
 	font-family: 'Roboto', sans-serif;
 }
 body{
-	background-image: linear-gradient(to right, #ff000000, rgb(246, 194, 194), white, lightblue)
+	background-image: linear-gradient(to right, #ff000000, rgb(246, 194, 194), white, lightblue, lightgreen
+	)
 }
 input:not([type="radio"]):not([type="checkbox"]), button {
 	appearance: none;
